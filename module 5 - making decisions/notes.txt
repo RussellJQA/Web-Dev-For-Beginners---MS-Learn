@@ -1,0 +1,40 @@
+*****
+Beginner's Series to JavaScript YouTube videos
+Video 25 of 51: Boolean logic with if statements
+*****
+
+Equality in JS
+
+2 comparison operators:
+== (= =) checks for equality regardless of data type
+=== (= = =) Strict equality: checks for equal values and data types
+    best practice to normally use this
+
+2 not equal operators:
+!== (! = =) checks for inequality regardless of data type
+=== (! = = =) checks for unequal values and data types
+    best practice to normally use this
+
+if (condition1) {
+    statement1;
+} else if (condition2) {
+    statement2; 
+} else {
+    statement3;
+}
+
+// No { } needed if using single line
+if (condition1) statement1;
+else if (condition2) statement2; 
+else statement3;
+
+// Ternary (a.k.a. instant, a.k.a. inline) "if" statement
+const message = (status === 200) ? 'OK' : 'Error';
+
+*****
+MS Learn module
+*****
+
+&&  logical AND
+||  logical OR
+!   logical NOT
